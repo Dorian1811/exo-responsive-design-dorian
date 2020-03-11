@@ -1,0 +1,273 @@
+.bordure
+{
+    border: 2px black solid;
+    background-color: black;
+}
+
+.bout>li>a 
+{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.gris
+{
+    border: 2px gray solid;
+    background-color: gray;
+}
+
+.imagess
+{
+    background-image: url("../../image/soleil.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+}
+
+hr
+{
+    border: 1px solid;
+    color: #008ba3;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.bordure2
+{
+    border: 2px black solid;
+    background-color: black;
+}
+
+ul
+{ 
+    list-style: none;
+}
+
+.fa-facebook-square
+{
+    color: #3b5998;
+    padding-right: 20px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.fa-twitter
+{
+    color: #00aced;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.fa-pinterest
+{
+    color: #bd081c;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.fa-snapchat
+{
+    color: #fffc01;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.petit
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.groupe
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.prenomss
+{
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.prenoms
+{
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+section>h1
+{
+    text-align: center;
+}
+
+nav>ul
+{
+    text-align: center;
+}
+
+.envoyerss input
+{
+    background-color: #008ba3;
+    border-color: #008ba3;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: white;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+input
+{
+    border-color: #008ba3;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+
+.art1
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 305px;
+}
+
+.art2
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 35px;
+}
+
+.art3
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 35px;
+    padding-right: 305px;
+}
+
+.gros_article
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h3
+{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.envoyerss
+{
+    margin-bottom: 25px;
+}
+
+.lienss>ul>li>a
+{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+@media screen and ( max-width: 500px)
+{
+    .imagess
+    {
+        display: block;
+        display: none;
+    }
+
+    .gros_article
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .art1
+    {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding-left: 20px;
+    }
+
+    .art2
+    {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .art3
+    {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding-left: 350px;
+    }
+
+    .groupe
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .prenoms
+    {
+        display: flex;
+        margin-top: -30px;
+        margin-bottom: 15px;
+    }
+
+    .envoyerss
+    {
+        display: flex;
+        margin-top: -5px;
+        margin-bottom: 5px;
+    }
+
+    hr
+    {
+        margin-left: 38%;
+        margin-right: 38%;
+    }
+
+    form>p
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/*
+@media screen and (min-width: 900px)
+{
+
+}
+*/
